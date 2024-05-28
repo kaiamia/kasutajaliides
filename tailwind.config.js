@@ -4,7 +4,15 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-
+          cherry: '#D41217',
+          green: '#8DB524',
+          purple: '#8961A6',
+          orange: '#F39332',
+          blue: '#41BFED',
+          grayD: '#7B858A',
+          grayM: '#C8C8CA',
+          grayL: '#E7E8E8',
+          textGray: 'rgb(74,74,74)',
           }
       },
       accentColor: ({ theme }) => ({
@@ -305,7 +313,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
-          'Outfit',
+          'Roboto',
           'ui-sans-serif',
           'system-ui',
           'sans-serif',
